@@ -1,47 +1,36 @@
-# 📊 Previsão de Estoque Inteligente na AWS com [SageMaker Canvas](https://aws.amazon.com/pt/sagemaker/canvas/)
+Previsão de Estoque Inteligente na AWS com SageMaker Canvas
 
-Bem-vindo ao desafio de projeto "Previsão de Estoque Inteligente na AWS com SageMaker Canvas. Neste Lab DIO, você aprenderá a usar o SageMaker Canvas para criar previsões de estoque baseadas em Machine Learning (ML). Siga os passos abaixo para completar o desafio!
+Este projeto faz parte do Lab “Previsão de Estoque Inteligente na AWS com SageMaker Canvas”, proposto pela Digital Innovation One (DIO). O objetivo é aplicar conceitos práticos de Machine Learning (ML) utilizando o Amazon SageMaker Canvas, uma ferramenta no-code que permite criar modelos preditivos sem necessidade de programação.
 
-## 📋 Pré-requisitos
+Objetivo do Projeto
 
-Antes de começar, certifique-se de ter uma conta na AWS. Se precisar de ajuda para criar sua conta, confira nosso repositório [AWS Cloud Quickstart](https://github.com/digitalinnovationone/aws-cloud-quickstart).
+Desenvolver um modelo de Machine Learning para previsão de estoque utilizando o SageMaker Canvas e documentar o processo de criação do modelo neste repositório.
 
+Ferramentas Utilizadas
 
-## 🎯 Objetivos Deste Desafio de Projeto (Lab)
+Amazon Web Services (AWS)
 
-![image](https://github.com/digitalinnovationone/lab-aws-sagemaker-canvas-estoque/assets/730492/72f5c21f-5562-491e-aa42-2885a3184650)
+Amazon SageMaker Canvas
 
-- Dê um fork neste projeto e reescreva este `README.md`. Sinta-se à vontade para detalhar todo o processo de criação do seu Modelo de ML para uma "Previsão de Estoque Inteligente".
-- Para isso, siga o [passo a passo] descrito a seguir e evolua as suas habilidades em ML no-code com o Amazon SageMaker Canvas.
-- Ao concluir, envie a URL do seu repositório com a solução na plataforma da DIO.
+GitHub
 
+Etapas do Desenvolvimento
+1. Seleção do Dataset
 
-## 🚀 Passo a Passo
+O dataset utilizado foi obtido na pasta datasets do repositório base disponibilizado pela DIO. O arquivo foi selecionado e carregado no Amazon SageMaker Canvas para utilização no treinamento do modelo.
 
-### 1. Selecionar Dataset
+2. Construção e Treinamento do Modelo
 
--   Navegue até a pasta `datasets` deste repositório. Esta pasta contém os datasets que você poderá escolher para treinar e testar seu modelo de ML. Sinta-se à vontade para gerar/enriquecer seus próprios datasets, quanto mais você se engajar, mais relevante esse projeto será em seu portfólio.
--   Escolha o dataset que você usará para treinar seu modelo de previsão de estoque.
--   Faça o upload do dataset no SageMaker Canvas.
+No SageMaker Canvas, o dataset foi importado e configurado, definindo-se as variáveis de entrada e a variável alvo relacionada à previsão de estoque. O treinamento do modelo foi iniciado utilizando os recursos automáticos da plataforma.
 
-### 2. Construir/Treinar
+3. Análise do Modelo
 
--   No SageMaker Canvas, importe o dataset que você selecionou.
--   Configure as variáveis de entrada e saída de acordo com os dados.
--   Inicie o treinamento do modelo. Isso pode levar algum tempo, dependendo do tamanho do dataset.
+Após o treinamento, foram analisadas as métricas de desempenho apresentadas pelo SageMaker Canvas, bem como as variáveis que mais influenciaram as previsões geradas pelo modelo.
 
-### 3. Analisar
+4. Previsão de Estoque
 
--   Após o treinamento, examine as métricas de performance do modelo.
--   Verifique as principais características que influenciam as previsões.
--   Faça ajustes no modelo se necessário e re-treine até obter um desempenho satisfatório.
+Com o modelo treinado, foram realizadas previsões de estoque. Os resultados obtidos permitiram analisar padrões de demanda e auxiliar na tomada de decisão relacionada ao controle de estoque.
 
-### 4. Prever
+Conclusão
 
--   Use o modelo treinado para fazer previsões de estoque.
--   Exporte os resultados e analise as previsões geradas.
--   Documente suas conclusões e qualquer insight obtido a partir das previsões.
-
-## 🤔 Dúvidas?
-
-Esperamos que esta experiência tenha sido enriquecedora e que você tenha aprendido mais sobre Machine Learning aplicado a problemas reais. Se tiver alguma dúvida, não hesite em abrir uma issue neste repositório ou entrar em contato com a equipe da DIO.
+Este projeto demonstrou a aplicação prática do Amazon SageMaker Canvas para criação de modelos de Machine Learning de forma simples e acessível, reforçando o uso de ferramentas no-code para solução de problemas reais de negócio.
