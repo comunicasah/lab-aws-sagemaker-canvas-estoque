@@ -32,7 +32,8 @@ loan_amount
 verification_status
 
 4. Previsões
-Com o modelo treinado, foram realizadas previsões a partir dos dados disponíveis, permitindo analisar padrões e comportamentos relevantes para apoio à tomada de decisão.
+O modelo foi treinado utilizando o Amazon SageMaker Canvas, em ambiente privado da AWS, por meio do modo Quick Build.
+Com o modelo treinado, foram realizadas previsões de estoque. Os resultados obtidos permitiram analisar padrões de demanda e auxiliar na tomada de decisão relacionada ao controle de estoque.
 
 Conclusão
 Este projeto demonstrou como o Amazon SageMaker Canvas possibilita a criação de modelos de Machine Learning de forma simples, rápida e acessível, mesmo para usuários sem experiência prévia em programação.
